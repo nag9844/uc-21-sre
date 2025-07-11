@@ -1,9 +1,8 @@
-cat alertmanager.yml 
 global:
   smtp_smarthost: 'smtp.gmail.com:587'
   smtp_from: 'vnagaraj984@gmail.com'
   smtp_auth_username: 'vnagaraj984@gmail.com'
-  smtp_auth_password: '#########'  # Use Gmail App Password
+  smtp_auth_password: ''  # Use Gmail App Password
   smtp_require_tls: true
 
 route:
